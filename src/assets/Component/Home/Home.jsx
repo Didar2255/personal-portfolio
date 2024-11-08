@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../NavigationBar/NavBar'
 import Header from '../Header/Header'
 import Resume from '../Resume/Resume'
+import Skill from '../Skill/Skill'
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
             <NavBar />
             <Header />
             <Resume />
+            <Skill />
         </div>
     )
 }
