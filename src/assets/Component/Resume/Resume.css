@@ -1,0 +1,100 @@
+.resume-section h1 {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title .graduation-icon {
+    color: rgba(248, 146, 34, 1);
+    font-size: 40px;
+    margin-right: 10px;
+    background-color: rgba(51, 51, 51, 1);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.title h2 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container {
+    align-items: center;
+    width: 70%;
+    padding: 35px 10%;
+    margin-left: 200px;
+}
+
+main.row {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.col header.title {
+    padding: 0px 0px 20px 30px;
+}
+
+.content-section {
+    padding: 0px 30px;
+    border-left: 6px solid rgba(100, 100, 100, 1);
+
+}
+
+.years {
+    font-family: DM Sans;
+    width: 87px;
+    padding: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.box-text {
+    height: 154 px;
+    width: 646px;
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 10px 0px 10px 0;
+    border-radius: 8px;
+}
+
+.box-text h3 {
+    font-family: DM Sans;
+    color: rgba(245, 189, 77, 1);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subject {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(143, 143, 143, 1);
+    line-height: 12px;
+}
+
+hr {
+    margin: 10px 0px 10px 0px;
+}
+
+.paragraph {
+    font-family: DM Sense;
+    font-weight: 400;
+    size: 16px;
+    line-height: 22.4px;
+}
