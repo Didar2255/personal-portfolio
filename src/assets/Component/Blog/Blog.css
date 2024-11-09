@@ -1,0 +1,58 @@
+.blog-title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 20px 600px 0px 0px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.blog-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-section {
+    height: 1693px;
+    width: 688px;
+}
+
+.card-description {
+    height: 246px;
+    width: 336px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.card-description h4 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(116, 116, 116, 1);
+    line-height: 12px;
+}
+
+.card-description h2 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 25.2px;
+}
+
+.card-description p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(151, 151, 151, 1);
+    text-align: justify;
+    line-height: 19.6px;
+}
+
+.card-description h6 {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 18.2px;
+}

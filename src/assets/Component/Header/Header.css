@@ -56,11 +56,22 @@
 }
 
 .header-text h1 {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
     margin: 10px 0px 20px 0px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 62.4px;
 }
 
 .header-text p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(198, 198, 198, 1);
+    line-height: 20.83px;
     margin: 25px 0px 35px 0px;
+    text-align: justify;
 }
 
 .download-button {
