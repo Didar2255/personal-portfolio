@@ -1,0 +1,108 @@
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.portfolio-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 688px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.09), 0 14px 28px rgba(0, 0, 0, 0.09);
+}
+
+.portfolio-nav a {
+    position: relative;
+    margin-right: 20px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.portfolio-nav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    margin-top: 10px;
+    background-color: rgba(248, 146, 34, 1);
+    transition: .3s;
+}
+
+.portfolio-nav a:hover::before {
+    width: 100%;
+}
+
+.portfolio-nav a:hover {
+    color: rgba(248, 146, 34, 1);
+}
+
+.figma {
+    width: 332px;
+    height: 321px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(41, 40, 40);
+    ;
+}
+
+.figma h1 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.figma p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(175, 175, 175, 1);
+    text-align: center;
+}
+
+.main-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 332px;
+    height: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+    ;
+}
+
+.card h1 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.card p {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(175, 175, 175, 1);
+    text-align: center;
+}
